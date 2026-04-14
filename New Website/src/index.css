@@ -4,11 +4,11 @@
   --primary: #FF9900;
   --secondary: #EF8A10;
   --accent: #FD9417;
-  --bg-color: #040404;
-  --text-main: #FFFFFF;
-  --text-muted: #9CA3AF;
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --bg-color: #F8F9FA;
+  --text-main: #111827;
+  --text-muted: #4B5563;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
 }
 
 * {
@@ -46,4 +46,5 @@ a:hover {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.03);
 }

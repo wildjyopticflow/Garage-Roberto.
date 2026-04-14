@@ -23,8 +23,7 @@ function NavBar() {
     <nav className="navbar glass-panel">
       <div className="container navbar-content">
         <div className="logo">
-          <div className="logo-icon">GR</div>
-          <h2>Garage Roberto</h2>
+          <img src="/logo1.png" alt="Garage Roberto" className="logo-img" />
         </div>
         <div className="nav-links">
           <a href="#">Home</a>
@@ -271,7 +270,9 @@ function Contact() {
             </div>
             <button className="btn-primary full-width">Submit Request</button>
           </div>
-          <div className="contact-image"></div>
+          <div className="contact-image-wrapper">
+            <img src="/slide1.png" alt="Garage Location" className="contact-photo" />
+          </div>
         </div>
       </div>
     </section>
