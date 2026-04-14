@@ -100,12 +100,12 @@
 }
 .btn-secondary {
   background-color: transparent;
-  color: var(--text-main);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .btn-secondary:hover {
-  background-color: var(--text-main);
-  color: var(--bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 /* --- Hero --- */
@@ -128,7 +128,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(248, 249, 250, 0.35);
+  background: rgba(4, 4, 4, 0.4);
 }
 .hero-content {
   position: relative;
@@ -147,6 +147,7 @@
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 45px;
+  color: #ffffff;
 }
 .hero-title span {
   color: var(--primary);
@@ -337,7 +338,7 @@
   content: "";
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(248,249,250,0.65);
+  background: rgba(4, 4, 4, 0.55);
   border-radius: 20px;
 }
 .testimonial-content {
@@ -352,6 +353,9 @@
   justify-content: center;
   gap: 15px;
   margin-bottom: 30px;
+}
+.testimonial-author h3 {
+  color: #ffffff;
 }
 .author-avatar {
   background: var(--primary);
@@ -369,7 +373,7 @@
   font-weight: 400;
   line-height: 1.6;
   font-style: italic;
-  color: var(--text-main);
+  color: #ffffff;
 }
 
 /* Services */
